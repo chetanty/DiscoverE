@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter for DiscoverE</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1  id="greeting"></h1>
+    <h1>Dear DiscoverE Hiring Manager,</h1>
+    <p>
+        I hope this message finds you doing well. I'm thrilled to apply for the position at DiscoverE as I'm passionate about inspiring the next generation of engineers and contributing to the organization's goal of promoting diversity and inclusion in the engineering field.    </p>
+    <p>
+        As someone with a strong background in technology and programming, I'm confident that my experience in creating technology-related programming for various age groups makes me an ideal candidate for this role. My expertise in database development, providing technical support, and analyzing feedback from stakeholders to drive innovation further strengthens my candidacy.    </p>
+    <p>
+        I'm excited at the prospect of joining the DiscoverE team and contributing to the organization's mission. I believe that my skills and experiences align well with the requirements of this position, and I would be honored to discuss my candidacy further. Thank you for your time and consideration.    </p>
+    <p>
+        Thank you for considering my application.
+    </p>
+    <p>
+        Sincerely,
+        <br>
+        Chetan Tyagi
+    </p>
+    <button onclick="launchConfetti()">Celebrate with Confetti</button>
+
+    <script>
+
+        
+
+        function launchConfetti() {
+            const greeting = "Thank you for reviewing!";
+            document.getElementById("greeting").innerHTML = greeting;
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        }
+    </script>
+</body>
+</html>
